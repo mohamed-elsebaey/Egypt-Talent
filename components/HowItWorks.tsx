@@ -1,7 +1,7 @@
 export default function HowItWorks() {
   return (
     <div className="flex flex-col items-center text-[#fff] px-[100px] py-[50px] bg-gradient-to-r from-customBlue to-customPink">
-      <h2 className="font-bold text-3xl ">Why Choose Us</h2>
+      <h2 className="font-bold text-3xl ">How It Works</h2>
       <div className="p-[25px] flex flex-col gap-[70px] w-[100%]">
         <div className="flex flex-col gap-[20px]">
           <div className="text-customBlue font-bold text-[23px] bg-[#fff] w-[50px] h-[50px] rounded-[10px] flex items-center justify-center">
