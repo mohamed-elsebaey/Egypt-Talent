@@ -7,7 +7,7 @@ import { IconCard } from "./iconCard";
 export const WhyChooseUs = () => {
   return (
     <div className="flex flex-col items-center px-[100px] py-[50px] gap-[60px]">
-      <h2 className="font-bold text-3xl">Why Choose Us</h2>
+      <h2 className="font-bold text-3xl text-center">Why Choose Us</h2>
       <div className="px-[10px] flex gap-[30px] flex-col md:flex-row ">
         <IconCard
           icon={icon1.src}

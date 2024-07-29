@@ -15,7 +15,7 @@ export const Hero = () => {
           Unlock your potential with the best salaries, job security, and
           comprehensive benefits.
         </p>
-        <button className=" px-[100px] py-[20px] border-[#4F277B] border-4 rounded-[10px] font-bold text-[18px] bg-gradient-to-b from-[#4F277B] to-[#B04E91] text-transparent bg-clip-text">
+        <button className=" px-[100px] py-[20px] border-[#4F277B] border-4 rounded-[10px] font-bold text-[18px] bg-gradient-to-b from-[#4F277B] to-[#B04E91] text-transparent bg-clip-text whitespace-nowrap">
           Get Started
         </button>
       </div>
