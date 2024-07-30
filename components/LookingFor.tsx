@@ -21,23 +21,23 @@ export const LookingFor = () => {
             </p>
             <div className="flex flex-col items-start ">
               <LookingForIconCard
-                icon={icon.src}
+                number={true}
                 dis="Extensive experience in software development"
               />
               <LookingForIconCard
-                icon={icon.src}
+                number={true}
                 dis="Proficiency in multiple programming languages"
               />
               <LookingForIconCard
-                icon={icon.src}
+                number={true}
                 dis="A strong portfolio of successful projects"
               />
               <LookingForIconCard
-                icon={icon.src}
+                number={true}
                 dis="Excellent problem-solving skills"
               />
               <LookingForIconCard
-                icon={icon.src}
+                number={true}
                 dis="Strong written and spoken English communication skills"
               />
             </div>
@@ -50,23 +50,23 @@ export const LookingFor = () => {
             </p>
             <div className="flex flex-col items-start ">
               <LookingForIconCard
-                icon={icon.src}
+                number={false}
                 dis="Extensive experience in graphic design"
               />
               <LookingForIconCard
-                icon={icon.src}
+                number={false}
                 dis="Proficiency in design software such as Adobe Creative Suite"
               />
               <LookingForIconCard
-                icon={icon.src}
+                number={false}
                 dis="A strong portfolio of creative and impactful designs"
               />
               <LookingForIconCard
-                icon={icon.src}
+                number={false}
                 dis="Excellent attention to detail"
               />
               <LookingForIconCard
-                icon={icon.src}
+                number={false}
                 dis="Strong written and spoken English communication skills"
               />
             </div>
