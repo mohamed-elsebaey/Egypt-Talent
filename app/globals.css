@@ -2,8 +2,4 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.my-image {
-    background-position: 50% 20%; /* يضع الصورة في المنتصف أفقيًا و20% من الأعلى رأسيًا */
-  }
   
