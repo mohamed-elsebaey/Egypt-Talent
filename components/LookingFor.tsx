@@ -43,10 +43,10 @@ export const LookingFor = () => {
             </div>
           </div>
           {/* ********************* */}
-          <div className="p-[20px] flex flex-col items-center gap-[10px] bg-slate-500 bg-gradient-to-l from-[#4F277B] to-[#B04E91]">
-            <h2 className="font-bold text-3xl">Software Developers</h2>
+          <div className="p-[20px] flex flex-col items-center gap-[10px] bg-gradient-to-l from-[#4F277B] to-[#B04E91]">
+            <h2 className="font-bold text-3xl">Graphic Designers</h2>
             <p className="text-center font-medium text-base">
-              We are looking for software developers who have:
+              We are looking for graphic designers who have:
             </p>
             <div className="flex flex-col items-start ">
               <LookingForIconCard
