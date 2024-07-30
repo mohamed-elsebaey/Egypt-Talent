@@ -21,7 +21,7 @@ export default function Home() {
       <Hero />
       <WhyChooseUs />
       <HowItWorks />
-      {/* <AboutUs /> */}
+      <AboutUs />
       {/* <div className="border-2 border-red-400">
       </div> */}
         <LookingFor />
