@@ -1,5 +1,5 @@
 import Image from "next/image";
-import img from "@/public/images/founder.JPG";
+import img from "@/public/founder.jpg";
 
 export const AboutUs = () => {
   return (
