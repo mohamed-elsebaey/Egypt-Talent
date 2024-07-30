@@ -6,7 +6,7 @@ import pinkLight from "@/public/pink-light2.png";
 
 export const AboutUs = () => {
   return (
-    <div className="relative">
+    <div className="relative" id="About-Us">
       <div className="md:mx-[100px] ssm:mx-[30px] mx-[25px]">
         <div className="flex flex-col gap-[50px]">
           <div className="flex lg:flex-row flex-col lg:gap-[70px] gap-[30px] s480:text-left text-center">
@@ -45,10 +45,10 @@ export const AboutUs = () => {
         className="w-[500px] absolute lg:-top-[400px] -top-96 "
       />
       <img
-          src={pinkLight.src}
-          alt="pinkLight"
-          className="w-[500px] absolute lg:-bottom-[500px] -bottom-[550px]  right-0 "
-        />
+        src={pinkLight.src}
+        alt="pinkLight"
+        className="w-[500px] absolute lg:-bottom-[500px] -bottom-[550px]  right-0 "
+      />
     </div>
   );
 };

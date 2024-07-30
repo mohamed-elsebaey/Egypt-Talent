@@ -5,7 +5,7 @@ import { LookingForIconCard } from "./LookingForIconCard";
 
 export const LookingFor = () => {
   return (
-    <div className="md:mx-[100px] ssm:mx-[30px] mx-[25px] my-[10px]">
+    <div id="Ready" className="md:mx-[100px] ssm:mx-[30px] mx-[25px] my-[10px]">
       <div className="flex flex-col items-center gap-[25px]">
         <h2 className="font-bold text-[47px] leading-10">Overview</h2>
         <p className="text-center font-medium text-base">

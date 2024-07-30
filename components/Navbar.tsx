@@ -9,16 +9,16 @@ const Navbar = () => {
         <div className="p-[10px] flex justify-between text-base font-semibold items-center">
           <ul className="lg:flex  justify-between xl:w-[40%] w-[56%] hidden">
             <li>
-              <Link href="/#">Why Us</Link>
+              <Link href="/#Why-Us">Why Us</Link>
             </li>
             <li>
-              <Link href="/#">How its Works</Link>
+              <Link href="/#its-Works">How its Works</Link>
             </li>
             <li>
-              <Link href="/#">About Us</Link>
+              <Link href="/#About-Us">About Us</Link>
             </li>
             <li>
-              <Link href="/#">Ready?</Link>
+              <Link href="/#Ready">Ready?</Link>
             </li>
           </ul>
           <div className="lg:hidden">
