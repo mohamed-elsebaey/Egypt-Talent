@@ -22,7 +22,7 @@ export default function Home() {
       <HowItWorks />
       {/* <div className="border-2 border-red-400">
       </div> */}
-        <AboutUs />
+        {/* <AboutUs /> */}
       <Footer />
     </>
   );
