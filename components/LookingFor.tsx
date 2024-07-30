@@ -14,7 +14,7 @@ export const LookingFor = () => {
           skilled, experienced, and have a proven track record of excellence.
         </p>
         <div className="flex gap-[10px] text-[#fff] flex-col lg:flex-row">
-          <div className="p-[20px] flex flex-col items-center gap-[10px] bg-gradient-to-r from-[#5998EB] to-[#ADEFFF]">
+          <div className="p-[20px] flex flex-col items-center gap-[10px] bg-gradient-to-r from-[#5998EB] to-[#ADEFFF] lg:w-[50%] w-[100%]">
             <h2 className="font-bold text-3xl">Software Developers</h2>
             <p className="text-center font-medium text-base">
               We are looking for software developers who have:
@@ -43,7 +43,7 @@ export const LookingFor = () => {
             </div>
           </div>
           {/* ********************* */}
-          <div className="p-[20px] flex flex-col items-center gap-[10px] bg-gradient-to-l from-[#4F277B] to-[#B04E91]">
+          <div className="p-[20px] flex flex-col items-center gap-[10px] bg-gradient-to-l from-[#4F277B] to-[#B04E91] lg:w-[50%] w-[100%] ">
             <h2 className="font-bold text-3xl">Graphic Designers</h2>
             <p className="text-center font-medium text-base">
               We are looking for graphic designers who have:

@@ -20,6 +20,11 @@ const config: Config = {
         customBlue: "#5998EB",
         customPink: "#B04E91",
       },
+      backgroundImage: {
+        "bg-1": "url('/Background1440px.jpg')",
+        "bg-2": "url('/Background770px.jpg')",
+        "bg-3": "url('/Background480px.jpg')",
+      },
     },
   },
   plugins: [],
