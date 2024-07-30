@@ -21,10 +21,10 @@ export default function Home() {
       <Hero />
       <WhyChooseUs />
       <HowItWorks />
-      <AboutUs />
       {/* <div className="border-2 border-red-400">
       </div> */}
-        <LookingFor />
+      <AboutUs />
+      <LookingFor />
       <Footer />
     </>
   );
