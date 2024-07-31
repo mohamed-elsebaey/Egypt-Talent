@@ -25,7 +25,7 @@ export const AboutUs = () => {
             <Image
               src={img}
               alt="our-founder"
-              className="lg:w-[60%] md:w-[80%] w-[100%]"
+              className="s480:w-[50%]"
             />
             <div className="flex flex-col gap-3">
               <h2 className="font-bold text-3xl whitespace-nowrap ">
