@@ -10,7 +10,7 @@ export const IconCard: React.FC<IconCardProps> = ({ icon, title, dis }) => {
     <>
       <div className="flex flex-col items-center text-center p-[10px] gap-[20px]">
         {/* <img src={icon} alt="icon" className="w-[50px] " /> */}
-        <Image src={icon} alt="Check circle icon" width={60} height={60} />
+        <Image src={icon} alt="Check circle icon" width={60} />
         <h3 className="font-bold text-[23px]">{title}</h3>
         <p className="font-medium text-[16px]">{dis}</p>
       </div>

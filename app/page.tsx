@@ -11,7 +11,7 @@ export default function Home() {
       <NavAndHero/>
       <WhyChooseUs />
       <HowItWorks />
-      <AboutUs />
+      {/* <AboutUs /> */}
       <LookingFor />
       <Footer />
     </>
