@@ -1,11 +1,11 @@
+import Image from "next/image";
+import button1 from "@/public/buttons/ButtonCTA-top.svg";
+import button2 from "@/public/buttons/ButtonCTA-bottom.svg";
 interface ButtonProps {
-  text: string;
+  x: boolean;
 }
 
-export const Button: React.FC<ButtonProps> = ({ text }) => {
-  return (
-    <button className=" ssm:px-[100px] px-[70px] py-[20px] border-[#4F277B] border-4 rounded-[10px] font-bold text-[18px] bg-gradient-to-b from-[#4F277B] to-[#B04E91] text-transparent bg-clip-text whitespace-nowrap">
-      {text}
-    </button>
-  );
+export const Button: React.FC<ButtonProps> = ({ x }) => {
+  const buttom = x ? button1 : button2;
+  return <Image src={buttom} alt="Check circle icon" width={310} />;
 };

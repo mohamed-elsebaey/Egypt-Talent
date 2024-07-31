@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${inter.className} max-w-[1600px] flex flex-col gap-[50px]`}>
+      <body className={`${inter.className} max-w-[1600px] mx-auto`}>
         {children}
       </body>
     </html>

@@ -72,7 +72,7 @@ export const LookingFor = () => {
             </div>
           </div>
         </div>
-        <Button text="Apply Now" />
+        <Button x={false} />
       </div>
     </div>
   );
