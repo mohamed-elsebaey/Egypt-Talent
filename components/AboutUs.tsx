@@ -20,7 +20,7 @@ export const AboutUs = () => {
               benefits.
             </p>
           </div>
-          <div className="flex s480:flex-row s480:text-left text-center flex-col-reverse md:gap-[50px]  gap-[20px] items-center ">
+          <div className="flex s480:flex-row s480:text-left text-center flex-col md:gap-[50px]  gap-[20px] items-center ">
             {/* <img src={img.src} alt="photo" /> */}
             <Image
               src={img}
