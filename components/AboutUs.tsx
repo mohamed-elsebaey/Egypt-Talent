@@ -1,5 +1,6 @@
 import Image from "next/image";
-import img from "@/public/founder.jpg";
+import img1 from "@/public/founder.jpg";
+import img2 from "@/public/founder2.jpg";
 
 import blueLight from "@/public/blue-light2.png";
 import pinkLight from "@/public/pink-light2.png";
@@ -21,11 +22,15 @@ export const AboutUs = () => {
             </p>
           </div>
           <div className="flex s480:flex-row s480:text-left text-center flex-col md:gap-[50px]  gap-[20px] items-center ">
-            {/* <img src={img.src} alt="photo" /> */}
             <Image
-              src={img}
+              src={img1}
               alt="our-founder"
-              className="s480:w-[50%]"
+              className="s480:w-[50%] md:block hidden"
+            />
+            <Image
+              src={img2}
+              alt="our-founder"
+              className="s480:w-[50%] md:hidden"
             />
             <div className="flex flex-col gap-3">
               <h2 className="font-bold text-3xl whitespace-nowrap ">
