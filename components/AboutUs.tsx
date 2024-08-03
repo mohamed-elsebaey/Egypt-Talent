@@ -1,6 +1,6 @@
 import Image from "next/image";
-import img1 from "@/public/founder.jpg";
-import img2 from "@/public/founder2.jpg";
+import img1 from "@/public/founder.svg";
+import img2 from "@/public/founder2.svg";
 
 import blueLight from "@/public/blue-light2.png";
 import pinkLight from "@/public/pink-light2.png";
